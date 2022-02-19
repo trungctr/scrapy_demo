@@ -27,3 +27,4 @@ class GetQuoteSpider(scrapy.Spider):
 			item['author'] = authors[i]
 			item['tag'] = tags[i]
 			yield item
+			yield item
